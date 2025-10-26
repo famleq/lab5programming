@@ -3,7 +3,7 @@ package flowerapp.commands;
 public class ExitCommand implements Command {
     @Override
     public void execute() {
-        System.out.println("Вихід із програми...");
+        System.out.println("Програму завершено. Дякуємо за використання!");
         System.exit(0);
     }
 
