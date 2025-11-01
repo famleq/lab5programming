@@ -23,4 +23,8 @@ public abstract class   Flower {
     public String toString() {
         return name + " (" + color + ", " + stemLength + "см, свіжість=" + freshness + ", " + price + " грн)";
     }
+
+    public String getColor() {
+        return color;
+    }
 }
